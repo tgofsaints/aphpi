@@ -4,11 +4,12 @@
 <head>
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="src/views/css/styles.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Lista de Inscritos</title>
 </head>
 
-<body>
+<body>    <div class="container">
     <h1 style="font-size: 40px">Lista de Inscritos</h1>
     <div class="overflow-x-auto">
         <table class="table">
@@ -33,11 +34,8 @@
             </tbody>
         </table>
     </div>
-    <ul>
-
-
-    </ul>
-    <a href="/api/add">Adicionar Pessoa</a>
+    <button class="btn btn-active btn-primary"><a href="/api/add">Adicionar Pessoa</a></button>
+    </div>
 </body>
 
 </html>
